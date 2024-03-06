@@ -1,0 +1,20 @@
+body {
+  background-color: blue;
+  color: aquamarine;
+}
+header {
+  background-color: blueviolet;
+}
+form {
+  background-color: blueviolet;
+}
+input {
+  background-color: blue;
+}
+button {
+  background-color: blue;
+  color: aqua;
+}
+a {
+  text-decoration: none;
+}
