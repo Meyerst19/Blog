@@ -6,12 +6,7 @@ header {
 main {
   width: 100vw;
   display: flex;
+  flex-direction: column;
   border-top: double black;
   border-bottom: double black;
-}
-footer {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
 }
