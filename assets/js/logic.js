@@ -18,6 +18,4 @@ function modeAssign(event) {
   }
 }
 
-window.addEventListener("load", modeAssign);
-
 themeSwitcher.addEventListener("click", modeAssign);

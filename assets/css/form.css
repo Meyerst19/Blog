@@ -48,3 +48,6 @@ input {
 button {
   width: 30.75vw;
 }
+#msg {
+  color: red;
+}
