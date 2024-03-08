@@ -11,8 +11,11 @@ function createPost(i) {
   const contentElement = document.createElement("p");
   const usernameElement = document.createElement("p");
   titleElement.textContent = posts[i].title;
+  titleElement.className = "title";
   contentElement.textContent = posts[i].content;
+  contentElement.className = "content";
   usernameElement.textContent = posts[i].username;
+  usernameElement.className = "username";
   mainElement.appendChild(postElement);
   postElement.appendChild(titleElement);
   postElement.appendChild(contentElement);

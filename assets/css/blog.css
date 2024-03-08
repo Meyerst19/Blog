@@ -1,6 +1,7 @@
 header {
   width: 100vw;
   display: flex;
+  justify-content: space-between;
   font-size: xx-large;
 }
 main {
@@ -9,4 +10,31 @@ main {
   flex-direction: column;
   border-top: double black;
   border-bottom: double black;
+  padding-left: 0.5rem;
+}
+
+h1 {
+  align-self: flex-end;
+}
+main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.title {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+.content {
+  font-size: large;
+  margin-bottom: 0.5rem;
+}
+
+.username {
+  font-style: italic;
+  font-size: small;
+  padding-left: 1rem;
 }

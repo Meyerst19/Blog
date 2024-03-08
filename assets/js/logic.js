@@ -2,11 +2,12 @@ const themeSwitcher = document.querySelector("#theme-switcher");
 const container = document.querySelector(".container");
 let mode = localStorage.getItem("mode");
 
-if (mode === null) {
+if (mode === "") {
   mode = "dark";
 }
+container.setAttribute("class", mode);
 
-function modeAssign(event) {
+function modeAssign() {
   if (mode === "dark") {
     mode = "light";
     localStorage.setItem("mode", mode);
